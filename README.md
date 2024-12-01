@@ -7,4 +7,4 @@ to run react frontend:
 go to project root and run-
 1. npm install
 2. npm run dev
-  -not to meant to be run in prod
+   (not to meant to be run in prod)

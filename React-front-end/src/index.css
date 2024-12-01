@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes color-flow {
+  0% { background-color: #1E40AF; }  /* Deep blue */
+  15% { background-color: #3B82F6; }  /* Bright blue */
+  30% { background-color: #6B7280; }  /* Gray */
+  45% { background-color: #EAB308; }  /* Yellow */
+  60% { background-color: #84CC16; }  /* Lime */
+  75% { background-color: #4B5563; }  /* Gray */
+  90% { background-color: #111827; }  /* Almost black */
+  100% { background-color: #1E40AF; } /* Back to deep blue */
+}
+
+.animate-color-flow {
+  animation: color-flow 8s linear infinite;
+  transition: background-color 0.3s ease;
+}
+
+.animate-color-flow:hover {
+  opacity: 0.9;
+}
